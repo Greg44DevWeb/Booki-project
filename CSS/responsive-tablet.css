@@ -1,0 +1,147 @@
+
+@media screen and (max-width: 992px){
+        body {
+        width: 90%;
+        margin:0 auto;
+    }
+   
+    /* responsive searchbar*/
+      #searchbar-container {
+          max-width: 250px;
+      }
+      
+    /* Responsive btn transformation*/
+    #responsive-btn { 
+        display:inline-block;   
+    }
+
+    #search-btn {
+        display:none;
+    }
+
+    /*Responsive Accomodation and Popular Container */
+    #flex-main-container {
+        width: 100%;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+    #hosting-card-container { 
+        min-width: 100%;
+        justify-content: center;
+        order:2;
+        background-color: white;
+        padding:0;
+    }
+
+    .hosting-card {
+        width: 250px;
+    }
+
+    /* Responsibe for popular section*/
+    #popular-card-container {
+        
+        max-width: 992px;
+        flex-direction: row;
+        Order:1;
+        border-radius: 0px;
+    }
+
+    /* display transform when hover*/
+    .popular-card:hover {
+        transform: scale(1.2);
+    }
+      
+
+   /* Popular Cards formatting*/
+    #popular-container-flex .popular-card {
+        height: auto;
+        max-width:200px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fit-cover-popular {
+        min-width: 100%;
+        border-radius: 20px;
+    }
+
+    #popular-card-container #popular-container-flex {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+/* Responsive for Activities container */
+
+
+    #activities-flex-container {    
+        justify-content: center;
+    }
+
+    .col1-wrapper, .col2-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        min-width: 100%;
+        max-height: 150px;
+        margin-bottom: 50px;
+    }
+
+    .col2-wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        min-width: 100%;
+        max-height: 350px;
+        row-gap: 50px;   
+    }
+
+    .link-card3{
+        min-height: 150px;
+        
+    }
+
+    .link-card2 {
+        max-height: 150px;
+    }
+
+    .card1,.card2,.card3 {
+        max-height: 120px;
+    }
+
+
+    .cover {
+        max-height: 100px;
+    }
+
+    .text-content {
+        display: flex;
+        align-items: center;   
+    }
+
+    /* Responsive for footer section */
+  
+    #footer-nav {
+        
+        max-width: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;   
+        background-color: #f2f2f2;
+        
+        padding-top: 20px;
+    }
+
+    #footer-nav ul{
+        max-width: 160px;
+        padding-left: 30px;
+    }
+    #footer-nav h2{
+    padding-left: 10px;
+    }
+    .list-wrapper {
+        margin-left: 10px;
+        border-left: 1px dotted #0065dc;
+    }  
+}   
+
+

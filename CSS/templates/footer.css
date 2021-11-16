@@ -1,0 +1,29 @@
+/*FORAMTTING FOOTER LIST - STYLE in STYLE SHEET*/
+
+#footer-nav {
+    min-width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.list-wrapper {
+    max-width: 300px;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.general-links {
+    margin-right: 100px;
+    padding-top:5px;
+}
+
+.footer-links {
+    width: 250px;
+    padding:5px;
+    cursor:pointer;
+}

@@ -1,0 +1,195 @@
+
+/* GLOBAL PRESTYLE*/
+i {
+    font-size: 14px;
+}
+
+/*section position*/
+#hosting-popular {
+    margin-top: 40px;
+}
+
+/*flex container pre-style*/
+.card-containers-style {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+/* hosting-flex-size*/
+#hosting-card-container {   
+    flex:2
+}
+
+.main-title-section {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-title-format {
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom:20px;
+}
+
+/*icone pre-style*/
+.bluestars{
+    color:#0065dc;
+}
+
+.greystars{
+    color:#f2f2f2;   
+}
+
+/* main container section*/
+#flex-main-container {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   gap: 24px; 
+}
+
+/* Prices Font-weight*/
+.bold-weight {
+    font-weight: bold;
+}
+/* END GLOBAL STYLE */
+
+
+
+/* HOSTING SECTION*/
+
+/* hosting card pre-style*/
+.hosting-card-style {
+   
+    margin-bottom: 30px;
+    padding-bottom:10px;
+}
+
+
+/* pictures  hosting card style*/
+.fit-cover {
+    width: 100%; 
+    height: 120px; 
+    padding:10px 10px 0 10px; 
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    object-fit: cover;
+}
+/* hosting card formatting and "hover" display*/
+.hosting-card {
+    min-width: 220px;    
+}
+
+.hosting-card:hover {
+    box-shadow: 2px 12px 20px grey;
+    transition: 0.2s ease-in-out;
+}
+
+/* main hosting-container*/
+#hosting-container-flex {
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* main title hosting container */
+.hosting-title-padding {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/* links area formatting*/
+.div-links-hosting-card {
+    width: auto;
+    max-height: 210px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 30px;  
+}
+
+/*POPULAR SECTION*/
+#popular-container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#popular-card-container {
+    background-color:#f2f2f2;
+    flex:1;
+}
+/*popular container-tilte*/
+#popular-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#popular-title i {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*popular cards formatting */
+
+.popular-card {
+    width: 350px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+.popular-card:hover {
+    box-shadow: 2px 12px 20px grey;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+/* Général card pre-style*/
+.radius-shadow-bg-card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px grey;
+
+}
+/* pics display*/
+.fit-cover-popular {
+    width: 160px; 
+    height: 140px; 
+    padding:10px 10px 0 10px; 
+    margin-right: 10px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius:20px;
+    object-fit: cover;
+}
+
+/* flex display for popular card*/
+.flex-popular {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* description popular cards display*/
+.description-card {
+    max-width:200px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

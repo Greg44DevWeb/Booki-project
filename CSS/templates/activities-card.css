@@ -1,0 +1,91 @@
+#Activities-section{
+    margin-top: 30px;
+}
+/* MAin container flexbox*/
+#activities-flex-container{
+    margin-top: 20px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+/* columns model formatting*/
+.col1-wrapper, .col2-wrapper {
+    width: 20%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+/* Activities Cards formatting*/
+.card1{
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card2 {
+    width: auto;
+    height: 79%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.card3 {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Activities links areas formatting*/
+.link-card1 {
+    width: 100%;
+    height: 100%; 
+}
+
+.link-card2 {
+    width: 100%;
+    height:50%;
+}
+
+.link-card3 {
+    width: 100%;
+    height: 35%;    
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+}
+
+/* Picture cover style*/
+.cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Shadow style */
+.shadow {
+    box-shadow: 4px 4px 8px grey;
+    border-radius:20px;
+    
+}
+/* Text description formatting*/
+.text-content {
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+/* Style when cards hover */
+#activities-flex-container a:hover {
+    box-shadow: 2px 12px 20px grey;
+    transition: 0.2s ease-in-out;
+}

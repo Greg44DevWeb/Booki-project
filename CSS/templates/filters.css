@@ -1,0 +1,158 @@
+/*GLOBAL PRE-FORMATTING*/
+
+/* Buttons formatting */
+.btn {
+    height: 100%; 
+    padding:0 10px 0 10px;   
+    outline:none;
+    border:none;
+    background-color: #0065DC;
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+}
+
+
+/* icon position pre-formatting*/
+.center-position-flex {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+/* END GLOBAL PRE-FORMATTING*/
+
+/* search button formatting and :hover style*/
+#search-btn {
+    width: 120px;
+    height: 50px;
+    position:absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color:rgb(222, 235, 255);
+    color: #0065dc;
+    transition:0.2s ease-in-out;
+}
+/* responsive button*/
+#responsive-btn {
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    border-radius: 10px;
+    display:inline-block;
+    z-index:-10;
+}
+
+/* title container*/
+#title-wrapper {
+    width: 100%;
+    height: auto;
+    
+}
+
+/*Search box formatting*/
+#searchbar-container{
+    min-width: 360px;
+    height: 50px;
+    margin-top:20px;
+}
+
+
+
+/* Position icon display Flex - See class=".icon-position-flex" in this stylesheet*/
+#position-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    position:absolute;
+    font-size:18px;
+    font-weight: bold;
+   
+}
+/*Icon Border formatting*/
+.border-radius-left {
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+/*input destinations choice formatting - - See style.css for input pre-formatting*/
+#destinations {
+    max-width: 300px;
+    height: 50px;
+    margin-left:50px;
+    padding-left:30px;
+    position:relative;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    border-top:1px solid #f2f2f2;
+    border-bottom:1px solid#f2f2f2; 
+    
+}
+
+/* Filters bar formatting */
+
+#filters-container {
+    max-width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px;
+}
+/*icons formatting*/
+
+.blue-flex-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #deebff;
+    color: #0065dc;
+    font-size: 18px;
+    overflow:visible;
+}
+
+/* filters containers formatting */
+.blue-link-wrapper{
+    width: auto;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px;
+    border-left:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor:pointer;
+}
+
+/*text filters formatting */
+.uppercase-property {
+    text-transform: uppercase;
+}
+
+.blue-link-hover {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.blue-link-hover:hover {
+    color: #0065DC;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.10);
+    
+}
+
+.blue-link-hover:hover .blue-flex-icon {
+    opacity: 20;
+}
+/* text filters formatting*/
+.font-weight-bold {
+    font-weight: bold;
+}
